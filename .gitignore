@@ -1,0 +1,5 @@
+# Create .gitignore and add rules
+echo "node_modules/" > .gitignore
+echo ".env" >> .gitignore
+echo "temp/" >> .gitignore
+echo "package-lock.json" >> .gitignore  # Optional (some exclude it)
